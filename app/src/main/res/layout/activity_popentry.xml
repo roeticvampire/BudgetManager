@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/popup_bg"
+    android:fadingEdge="horizontal|vertical"
+    android:orientation="vertical"
+
+    tools:actionBarNavMode="standard"
+    tools:context=".Popentry">
+
+    <TextView
+        android:id="@+id/tvSource"
+        android:layout_width="306dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:foregroundGravity="fill"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="3dp"
+        android:ems="10"
+        android:inputType="textAutoComplete"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:foregroundGravity="fill"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etcAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="3dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:foregroundGravity="fill"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spn_Category"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:background="#00009688"
+        android:backgroundTint="#528EC93B"
+        android:entries="@array/categories"
+        android:foregroundTint="#FFFFFF"
+        android:gravity="center"
+        android:layoutDirection="locale"
+        android:soundEffectsEnabled="true"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/tvNotes"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="3dp"
+        android:drawableTint="#00DD2929"
+        android:foregroundGravity="fill"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="3dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Add" />
+
+</LinearLayout>

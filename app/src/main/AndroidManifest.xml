@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DetailedAnalysis"></activity>
+        <activity android:name=".ExpenseTab" />
+        <activity android:name=".LongtermHistogram" />
+        <activity android:name=".ChangeIncome" />
+        <activity
+            android:name=".Popentry"
+            android:theme="@style/PopEntry" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,3 +1,35 @@
 <resources>
     <string name="app_name">Budget Manager</string>
+    <string name="radiobutton">RadioButton</string>
+    <string name="title_activity_detailed_analysis">DetailedAnalysis</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string-array name="timeline">
+        <item>This Month</item>
+        <item>Last 30 days</item>
+        <item>Last 90 Days</item>
+        <item>Last 180 Days</item>
+        <item>This Year</item>
+        <item>Last Year</item>
+        <item>All Time</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Food</item>
+        <item>Stationery</item>
+        <item>Clothes</item>
+        <item>Travel</item>
+        <item>Misc.</item>
+        <item>All</item>
+    </string-array>
+    <string-array name="TimeDet">
+        <item>Today</item>
+        <item>This Week</item>
+    </string-array>
+    <string-array name="GraphType">
+        <item>Pie Chart</item>
+        <item>Bar Chart</item>
+        <item>Line Chart</item>
+    </string-array>
+
+
 </resources>
